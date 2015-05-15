@@ -62,7 +62,7 @@ SUPPORT
 	E-Mail: jwcurran@iupui.edu
 	website: 2WayBayesianClassifier.com (coming soon)
 
-Copyright 2013 John Curran. All rights reserved. Frequent Pattern Miner(R) and its use are subject to a license agreement 
+Copyright 2013 John Curran. All rights reserved. 2Way Bayesian Classifier and its use are subject to a license agreement 
 and are also subject to copyright, trademark, patent and/or other pertainent laws. Refer to frequentpatternminer.com/legal 
 for additional information about usage rights. All other brand and product names are trademarks or registered.
 
