@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            class="com.raytheon.datamodeler.perspective.PerspectiveFactory"
+            icon="icons/face2.jpg"
+            id="com.raytheon.datamodeler.perspective"
+            name="Data Modeler">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            allowMultiple="false"
+            class="com.raytheon.datamodeler.views.ModelTree"
+            icon="icons/sample.gif"
+            id="com.raytheon.datamodeler.modeltree"
+            name="Model"
+            restorable="false">
+      </view>w>
+      <view
+            allowMultiple="false"
+            class="com.raytheon.datamodeler.views.TreeView"
+            icon="icons/sample.gif"
+            id="com.raytheon.datamodeler.treeview"
+            name="Tree View"
+            restorable="false">
+      </view>
+      <view
+            allowMultiple="false"
+            class="com.raytheon.datamodeler.views.BitField"
+            icon="icons/sample.gif"
+            id="com.raytheon.datamodeler.bitfield"
+            name="Bit Field"
+            restorable="true">
+      </view>
+      <view
+            class="com.raytheon.datamodeler.views.XMLView"
+            icon="icons/sample.gif"
+            id="com.raytheon.datamodeler.xmlview"
+            name="XML View">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="com.raytheon.datamodeler.editors.DomainEditor"
+            icon="icons/sample.gif"
+            id="com.raytheon.datamodeler.editors.domaineditor"
+            name="Domain Editor">
+      </editor>
+      <editor
+            class="com.raytheon.datamodeler.editors.SystemEditor"
+            icon="icons/sample.gif"
+            id="com.raytheon.datamodeler.editors.systemeditor"
+            name="System Editor">
+      </editor>
+      <editor
+            class="com.raytheon.datamodeler.editors.SubsystemEditor"
+            icon="icons/sample.gif"
+            id="com.raytheon.datamodeler.editors.subsystemeditor"
+            name="Subsystem Editor">
+      </editor>
+      <editor
+            class="com.raytheon.datamodeler.editors.MessageEditor"
+            icon="icons/sample.gif"
+            id="com.raytheon.datamodeler.editors.messageeditor"
+            name="Message Editor">
+      </editor>
+      <editor
+            class="com.raytheon.datamodeler.editors.FieldEditor"
+            icon="icons/sample.gif"
+            id="com.raytheon.datamodeler.editors.fieldeditor"
+            name="Field Editor">
+      </editor>
+      <editor
+            class="com.raytheon.datamodeler.editors.ModelEditor"
+            icon="icons/sample.gif"
+            id="com.raytheon.datamodeler.editors.modeleditor"
+            name="Model Editor">
+      </editor>
+   </extension>
+
+</plugin>
